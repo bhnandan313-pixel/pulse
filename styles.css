@@ -11,8 +11,8 @@
     margin-right: 60%;
 }
 .tag{
-    color:blue;
-    border-color: blue;
+    color:rgb(126, 22, 196);
+    border-color: rgb(134, 4, 241);
     border-style: solid;
     border-radius: 10px;
 }
@@ -30,4 +30,6 @@
 }
 .edit-card{
     border-radius: 0px;
+    border-width: 0px;
+    color: blueviolet;
 }
