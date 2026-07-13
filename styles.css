@@ -3,15 +3,17 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    overflow:scroll;
 }
 .sidebar-background{
     background-color: hsl(217, 33%, 25%);
     background-size: cover;
-    height: 100vh;
+    height: 200%;
     border-color: #727275;
     border-width: 0;
     border-style: solid;
     border-right-width: 1px;
+    overflow:hidden;
 }
 .logo-name{
     color: blueviolet;
@@ -87,6 +89,7 @@ aside,hr{
     border-radius: 20px;
     width:100%;
     height: 40%;
+    overflow:hidden;
    
 }
 .hero-card,p{
@@ -199,4 +202,66 @@ aside,hr{
 }
 .bottom-nav{
     height: 130px;
+}
+.section-title{
+    margin-bottom: 24px;
+    
+}
+.section-title h1{
+    color: white;
+    font-size:34px;
+    font-weight:700;
+}
+.section-title a{
+     color:#8aa3d6;
+    text-decoration:none;
+}
+.cardone img{
+    border-radius: 15px;
+    width: 100%;
+    
+}
+.cardone h3{
+    color: white;
+    font-size: 17px;
+    padding: 10px 0px 0px 15px;
+    transition:color 0.6s ease-in-out;
+}
+.cardone p{
+    padding: 0px 0px 0px 15px;
+    width: 100%;
+    transition:width 0.6s ease-in-out;
+}
+.cardone{
+    display: block;
+}
+.cardone:hover{
+    width: 102%;
+}
+.cardone:hover h3{
+    color: #6c11e2;
+}
+.cardtwo-card p{
+    font-size: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom:0;
+}
+.cardtwo-card h4{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+.cardtwo-card img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cardtwo-card{
+    background-color: #232c47;
+    width:320px;
+    border-radius: 20px;
+    margin: 20px;
 }
