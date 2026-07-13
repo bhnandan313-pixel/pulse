@@ -8,6 +8,10 @@
     background-color: hsl(217, 33%, 25%);
     background-size: cover;
     height: 100vh;
+    border-color: #727275;
+    border-width: 0;
+    border-style: solid;
+    border-right-width: 1px;
 }
 .logo-name{
     color: blueviolet;
@@ -155,7 +159,7 @@ aside,hr{
     background: linear-gradient(to right,purple,rgb(94, 5, 238));
     color: white;
     border-width: 0;
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 .hero-btn-1:hover{
     transform: scale(1.1);
@@ -184,5 +188,15 @@ aside,hr{
     color: rgb(9, 123, 199);
     height: 60px;
     bottom: 0;
+    border-style: solid;
+    border-color: #828FA4;
+    border-width: 0;
+    border-top-width: 1px;
     
+}
+.description-in-footer{
+    padding: 20px;
+}
+.bottom-nav{
+    height: 130px;
 }

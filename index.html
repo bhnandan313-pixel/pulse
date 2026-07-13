@@ -13,7 +13,7 @@
     <div class="main-background m-0">
         <div class="container-fluid p-0 m-0">
             <div class="row">
-                <div class="col-lg-2 d-none d-xl-block d-md-none">
+                <div class="col-lg-2 d-none d-lg-block">
                     <div class="sidebar-background">
                         <aside>
                             <div class="logo d-flex">
@@ -30,47 +30,46 @@
                         </aside>
                     </div>
                 </div>
-                <div class="col-12 d-block d-lg-block d-xl-none">
-                    <nav class="sidebar-nav d-flex bottom-line">
-                                <button class="nav-item active d-flex flex-column align-items-center" onclick="showSection('home', this)"><i class="fa-regular fa-house nav-items-icons text-center"></i>Home</span></button>
-                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('explore', this)"><i class="fa-regular fa-compass nav-items-icons"></i><span class="sidebar-label">Explore</span></button>
-                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('library', this)"><i class="fa-solid fa-book nav-items-icons"></i><span class="sidebar-label">Library</span></button>
-                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('settings', this)"><i class="fa-solid fa-gear nav-items-icons"></i><span class="sidebar-label">Settings</span></button>
-                             </nav>
-                </div>
-            <div class="col-11 col-md-11 col-lg-9" >
-                <section class="page" id="home">
-                <div class="hero-card">
-                    <p class="hero-tag"><span class="loader"></span>Daily Mix</p>
-                    <h1 class="hero-heading">The Daily Tech</h1>
-                    <p class="hero-paragraph">Sarah Chen</p>
-                    <p class="hero-paragraph">Your daily of technology news, trends , and insights from silicon <br/>valley and beyond</p>
-                    <button class="hero-btn-1"><i class="fa-solid fa-play btn-icon"></i>ListenNow</button>
-                    <button class="hero-btn-2">ViewShow</button>
-            </div>
-            </section>
-         </div>
-         
-
-                    </div>    
-                    </div>
-                                <h1>hi</h1>
+            <main class="col-10">
+                        <div class="col-11" >
+                            <section class="page" id="home">
+                            <div class="hero-card">
+                                <p class="hero-tag"><span class="loader"></span>Daily Mix</p>
+                                <h1 class="hero-heading">The Daily Tech</h1>
+                                <p class="hero-paragraph">Sarah Chen</p>
+                                <p class="hero-paragraph">Your daily of technology news, trends , and insights from silicon <br/>valley and beyond</p>
+                                <button class="hero-btn-1"><i class="fa-solid fa-play btn-icon"></i>ListenNow</button>
+                                <button class="hero-btn-2">ViewShow</button>
+                            </div>
                              </section>
                              <section class="page" id="explore">
-                                <h1>hi</h1>
+                                
                              </section>
 
                              <section class="page" id="library">
-                                <h1>hi</h1>
+                                
                              </section>
 
                              <section class="page" id="settings">
-                                <h1>hi</h1>
+                                
                              </section>
 
-
-           
-       
+            </main>
+                        <div class="col-12 d-block d-lg-none d-xl-none">
+                            <nav class="sidebar-nav d-flex bottom-line bottom-nav">
+                                        <button class="nav-item active d-flex flex-column align-items-center" onclick="showSection('home', this)"><i class="fa-regular fa-house nav-items-icons text-center"></i>Home</span></button>
+                                        <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('explore', this)"><i class="fa-regular fa-compass nav-items-icons"></i><span class="sidebar-label">Explore</span></button>
+                                        <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('library', this)"><i class="fa-solid fa-book nav-items-icons"></i><span class="sidebar-label">Library</span></button>
+                                        <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('settings', this)"><i class="fa-solid fa-gear nav-items-icons"></i><span class="sidebar-label">Settings</span></button>
+                                    </nav>
+                        </div>
+                        <div class="col-12">
+                        <footer class="bottom-line">
+                            <p class="description-in-footer">Select an episode to start listening</p>
+                        </footer>
+                        </div>
+                </div>  
+              </div>
            </div>
         </div>
     </div>
