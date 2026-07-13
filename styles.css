@@ -39,12 +39,39 @@ aside,hr{
     transition-property:color;
     margin: 10px;
 }
+.nav-item{
+    display: block;
+    padding: 10px;
+    color:rgb(158, 152, 152);
+    background-color: transparent;
+    border-width: 0px;
+    width: 90%;
+    text-align: left;
+    border-color: beige;
+    border-radius: 14px;
+    height: fit-content;
+    transition-property:color;
+    margin: 10px;
+}
+.nav-item:hover{
+    color:rgb(156, 31, 206);
+}
+.nav-item.active{
+    color:rgb(156, 31, 206);
+}
 .nav-items-icons{
     padding-right: 25px;
 }
 .nav-items.active{
     background-color:rgb(147, 94, 196,0.3);
     color:rgb(197, 101, 235);
+}
+.nav-items:hover{
+    background-color:rgba(245, 240, 250, 0.1);
+    color:rgb(255, 255, 255);
+}
+.bottm-bar-nav{
+    
 }
 .hero-card{
     margin: 20px;

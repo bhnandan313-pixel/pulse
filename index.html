@@ -13,7 +13,7 @@
     <div class="main-background">
         <div class="container-fluid p-0">
             <div class="row">
-                <div class="col-md-2 col-lg-2 d-none d-md-block">
+                <div class="col-md-3 col-lg-2 d-none d-md-block">
                     <div class="sidebar-background">
                         <aside>
                             <div class="logo d-flex">
@@ -30,7 +30,15 @@
                         </aside>
                     </div>
                 </div>
-            <div class="col-12 col-md-10 col-lg-9">
+                <div class="col-12 d-block d-md-none">
+                    <nav class="sidebar-nav d-flex bottom-bar-nav">
+                                <button class="nav-item active d-flex flex-column align-items-center" onclick="showSection('home', this)"><i class="fa-regular fa-house nav-items-icons text-center"></i>Home</span></button>
+                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('explore', this)"><i class="fa-regular fa-compass nav-items-icons"></i><span class="sidebar-label">Explore</span></button>
+                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('library', this)"><i class="fa-solid fa-book nav-items-icons"></i><span class="sidebar-label">Library</span></button>
+                                <button class="nav-item d-flex flex-column align-items-center" onclick="showSection('settings', this)"><i class="fa-solid fa-gear nav-items-icons"></i><span class="sidebar-label">Settings</span></button>
+                             </nav>
+                </div>
+            <div class="col-11 col-md-8 col-lg-9">
                 <section class="page" id="home">
                 <div class="hero-card">
                     <p class="hero-tag"><span class="loader"></span>Daily Mix</p>
@@ -80,6 +88,9 @@
 
     // Remove active class from all buttons
     document.querySelectorAll(".nav-items").forEach(btn => {
+        btn.classList.remove("active");
+    });
+    document.querySelectorAll(".nav-item").forEach(btn => {
         btn.classList.remove("active");
     });
 
