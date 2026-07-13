@@ -8,12 +8,14 @@
 .sidebar-background{
     background-color: hsl(217, 33%, 25%);
     background-size: cover;
-    height: 200%;
     border-color: #727275;
     border-width: 0;
     border-style: solid;
     border-right-width: 1px;
     overflow:hidden;
+    top: 0;
+     min-height: 100vh;
+     position: sticky;
 }
 .logo-name{
     color: blueviolet;
@@ -264,4 +266,74 @@ aside,hr{
     width:320px;
     border-radius: 20px;
     margin: 20px;
+}
+.bar-color{
+       background-color: #002497;
+       color: white;
+       margin: 20px;
+       padding: 10px;
+       border-radius: 15px;
+       width: 800px;
+    
+}
+
+.bg-bar{
+    background-color: #002497;
+    border-width: 0;
+    width: 700px;
+    color: #1b3eb1;
+}
+.explore-heading-1{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+}
+.explore-heading{
+    color: white;
+    font-size: 20px;
+
+}
+.emoji{
+    font-size:40px;
+}
+.color-card{
+    width:210px;
+    height:150px;
+    background:linear-gradient(#ff9800,#ff6d00);
+    border-radius:20px;
+    padding:25px;
+    margin: 25px;
+}
+
+.color-card h2{
+    bottom:25px;
+    left:25px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+.color-card1{
+background: linear-gradient(135deg, #d81b60 0%, #ff5252 100%);
+}
+.color-card2{
+background: linear-gradient(135deg, #f39c12 0%, #ff8c42 100%);
+}
+.color-card3{
+background: linear-gradient(135deg, #2196f3 0%, #4dd0e1 100%);
+}
+.color-card4{
+background: linear-gradient(135deg, #2ecc71 0%, #48e5c2 100%);
+}
+.color-card5{
+background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 100%);
+
+}
+.color-card6{
+background: linear-gradient(135deg, #607d8b 0%, #90a4ae 100%);
+}
+.color-card7{
+background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+}
+.color-card8{
+background: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
 }
