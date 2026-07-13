@@ -3,3 +3,46 @@
     background-size: cover;
     height: 100vh;
 }
+.sidebar-background{
+    background-color: hsl(217, 33%, 25%);
+    background-size: cover;
+    height: 100vh;
+}
+.logo-name{
+    color: blueviolet;
+    margin-top: 23px;
+}
+.logo-icon{
+    font-size: 40px;
+    padding: 10px;
+    width: fit-content;
+    margin: 10px;
+    color: blueviolet;
+    padding-right: 10px;
+}
+aside,hr{
+    color: grey;
+    margin-top: 0;
+    padding: 0;
+}
+.nav-items{
+    display: block;
+    padding: 10px;
+    color:rgb(158, 152, 152);
+    background-color: transparent;
+    border-width: 0px;
+    width: 90%;
+    text-align: left;
+    border-color: beige;
+    border-radius: 14px;
+    height: fit-content;
+    transition-property:color;
+    margin: 10px;
+}
+.nav-items-icons{
+    padding-right: 25px;
+}
+.nav-items.active{
+    background-color:rgb(147, 94, 196,0.3);
+    color:rgb(197, 101, 235);
+}
