@@ -2,6 +2,7 @@
     background-color:hsl(222, 47%, 11%);
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 }
 .sidebar-background{
     background-color: hsl(217, 33%, 25%);
@@ -71,6 +72,7 @@ aside,hr{
     color:rgb(255, 255, 255);
 }
 .bottm-bar-nav{
+    
     
 }
 .hero-card{
@@ -174,4 +176,13 @@ aside,hr{
 .btn-icon{
     font-size: 13px;
     padding-right: 25px;
+}
+.bottom-line{
+    background-color:hsl(217, 33%, 25%);
+    position: fixed;
+    width: 100%;
+    color: rgb(9, 123, 199);
+    height: 60px;
+    bottom: 0;
+    
 }
