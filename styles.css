@@ -220,25 +220,24 @@ aside,hr{
 }
 .cardone img{
     border-radius: 15px;
-    width: 100%;
+    width: 200px;
     
 }
 .cardone h3{
     color: white;
     font-size: 17px;
     padding: 10px 0px 0px 15px;
-    transition:color 0.6s ease-in-out;
+    transition:color 0.6s ease;
+    margin: 0;
 }
 .cardone p{
     padding: 0px 0px 0px 15px;
-    width: 100%;
+    width: fit-content;
     transition:width 0.6s ease-in-out;
 }
 .cardone{
-    display: block;
-}
-.cardone:hover{
-    width: 102%;
+    margin: 10px 7px 5px 7px;
+
 }
 .cardone:hover h3{
     color: #6c11e2;
