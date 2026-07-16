@@ -292,7 +292,9 @@ aside,hr{
 }
 .explore-heading{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 700;
 
 }
 .emoji{
@@ -304,7 +306,7 @@ aside,hr{
     background:linear-gradient(#ff9800,#ff6d00);
     border-radius:20px;
     padding:25px;
-    margin: 25px;
+    margin: 10px;
 }
 
 .color-card h2{
@@ -345,4 +347,96 @@ background: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
 
 #explore {
     display: none;
+}
+.explore-card h1{
+    color: white;
+    padding: 20px;
+    padding-right: 5px;
+}
+.explore-card{
+width: 500px;
+}
+.explore-card p{ 
+    margin-bottom: 25px;
+
+}
+.explore-cardp{
+    margin-top: 0px;
+    width: fit-content;
+    margin-left: 80px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+.explore-cardp p{
+    margin: 0;
+    font-size: 15px;
+}
+body{
+    background:#0f172a;
+}
+
+.settings-section{
+    max-width:700px;
+}
+
+.setting-card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:18px 20px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.setting-card:hover{
+    background:#273449;
+}
+
+.icon-box{
+    width:50px;
+    height:50px;
+    border-radius:12px;
+    background:#334155;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#cbd5e1;
+    font-size:22px;
+}
+
+small{
+    color:#94a3b8;
+    font-size:14px;
+}
+
+.form-check-input{
+    width:50px;
+    height:25px;
+    cursor:pointer;
+}
+
+.signout-btn{
+    background:#3b1d2d;
+    color:#ff5f5f;
+    border-radius:15px;
+    font-weight:600;
+}
+
+.signout-btn:hover{
+    background:#512538;
+    color:white;
+}
+.red{
+    color: red;
+     background:#602834;
+}
+.text-red{
+    color: red;
+}
+.s-red{
+     background:#3C202F;
+}
+.s-red:hover{
+    background:#4E2431;
 }
