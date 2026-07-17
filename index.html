@@ -321,7 +321,26 @@
                              </section>
 
                              <section class="page" id="library">
+                                <div class="library-heading">
+                                    <h1>Your Library</h1>
+                                </div>
+                                <div class="library-nav d-flex">
+                                    <nav  class="library-btn active" onclick="showLibraryTab('ss', this)">Subscribed Shows</nav>
+                                    <nav   class="library-btn" onclick="showLibraryTab('se', this)">Saved Episoded</nav>
+                                    <nav    class="library-btn" onclick="showLibraryTab('hs', this)">History</nav>
+                                 </div>
                                 
+                                <div id="ss" class="library-page">
+                                    <p>sample test</p>
+
+                                </div>
+                                <div id="se" class="library-page">
+                                       <p>sample test 2</p>
+                                </div>
+                                <div id="hs" class="library-page">
+                                   <p>sample test2</p>
+                                </div>
+                               
                                 
                              </section>
 
@@ -454,6 +473,26 @@
     // Highlight clicked button
     button.classList.add("active");
 }
+showLibraryTab("ss", document.querySelector(".library-btn"));
+function showLibraryTab(id, button) {
+
+    // Hide all content
+    document.querySelectorAll(".library-page").forEach(page => {
+    page.style.display = "none";
+});
+
+    // Show selected content
+    document.getElementById(id).style.display = "block";
+
+    // Remove active from all buttons
+    document.querySelectorAll(".library-btn").forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    // Add active to clicked button
+    button.classList.add("active");
+}
+
         </script> 
   </body>
 </html>

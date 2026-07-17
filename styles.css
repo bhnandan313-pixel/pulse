@@ -440,3 +440,32 @@ small{
 .s-red:hover{
     background:#4E2431;
 }
+.library-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+.library-nav nav{
+       color: grey;
+       background-color: #212C3F;
+       padding: 7px 12px 7px 12px;
+       margin: 10px;
+       border-radius: 20px;
+}
+.library-nav nav:hover{
+    color: rgb(168, 163, 163);
+    background-color: #273449;
+}
+.library-btn.active{
+    background: linear-gradient(purple,pink);
+}
+#ss{
+    display: block;
+}
+#se{
+    display: none;
+}
+#hs{
+    display: none;
+}
