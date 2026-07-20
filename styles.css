@@ -345,6 +345,9 @@ background: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
 #explore {
     display: none;
 }
+#library{
+    display: none;
+}
 #settings{
     display: none;
 }
