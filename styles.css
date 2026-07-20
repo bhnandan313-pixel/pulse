@@ -472,3 +472,16 @@ small{
 #hs{
     display: none;
 }
+.lib-show{
+    margin-left: 0;
+    margin-right: -35px;
+}
+.wid{
+    width:80vw;
+    height: fit-content;
+}
+.pro-grss{
+    width: 80vw;
+    background-color: transparent;
+    height: 4px;
+}
