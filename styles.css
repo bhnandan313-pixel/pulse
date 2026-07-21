@@ -220,7 +220,8 @@ aside,hr{
 }
 .cardone img{
     border-radius: 15px;
-    width: 200px;
+    max-width: 100%;
+    height: auto;
     
 }
 .cardone h3{
@@ -232,7 +233,7 @@ aside,hr{
 }
 .cardone p{
     padding: 0px 0px 0px 15px;
-    width: fit-content;
+    width:fit-content;
     transition:width 0.6s ease-in-out;
 }
 .cardone{
@@ -265,6 +266,22 @@ aside,hr{
     width:320px;
     border-radius: 20px;
     margin: 20px;
+}
+.zoom-effect-container{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.zoom-effect-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.zoom-effect-image:hover{
+    transform: scale(1.1);
 }
 .bar-color{
        background-color: #002497;
