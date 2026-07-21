@@ -228,7 +228,7 @@ aside,hr{
     color: white;
     font-size: 17px;
     padding: 10px 0px 0px 15px;
-    transition:color 0.6s ease;
+    transition:color 0.6s ease-out;
     margin: 0;
 }
 .cardone p{
@@ -266,6 +266,16 @@ aside,hr{
     width:320px;
     border-radius: 20px;
     margin: 20px;
+    border: 2px solid transparent;
+  transition:  box-shadow 0.4s ease, border-color 0.4s ease;
+  transition: transform 0.6s ease;
+}
+.cardtwo-card:hover{
+     
+  box-shadow:
+    0 0 2px rgb(255, 255, 255,0.9),
+    0 0 10px rgba(199, 225, 228, 0.6);
+    transform: scale(1.05);
 }
 .zoom-effect-container{
     width: 200px;
@@ -278,7 +288,7 @@ aside,hr{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
+    transition: transform 0.7s ease;
 }
 .zoom-effect-image:hover{
     transform: scale(1.1);
@@ -321,6 +331,11 @@ aside,hr{
     border-radius:20px;
     padding:25px;
     margin: 10px;
+    transition: transform 0.5s ease;
+}
+.color-card:hover{
+    transform: scale(1.05);
+
 }
 
 .color-card h2{
